@@ -1,31 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Login</title>
 </head>
 <body>
-    <header>
+    <header id="cabecalho">
         <p class="login">Login</p>
-        <p class="sign">Sign Up</p>
+        <p class="sign-up">Sign up</p>
     </header>
     <main>
-        <section>
+        <section id="login">
             <h1 class="titulo">Faça seu login!</h1>
-            <p class="subtitulo">Logue para continuar</p>
+            <p class="subtitulo">Responda o formulário abaixo corretamente.</p>
             <form action="#" method="post" autocomplete="on">
-                <input type="email" name="email" id="iemail" class="formulario" maxlength="100"><label for="iemail">Email</label><br>
-                <input type="password" name="senha" id="isenha" class="formulario" maxlength="8">
+                <input type="email" name="email" id="iemail" class="oemail" autocomplete="email" maxlength="30" required>
+                <label for="iemail" class="email">Email</label>
+                <input type="password" name="pass" id="ipass" class="sen" min="8" max="14" required> <label for="ipass" class="password">Password</label>
+                <input type="checkbox" name="remember" id="iremember"><label for="iremember" class="rememberme">Remember-me</label>
+                <p class="forget">
+                    Forget the password
+                </p>
+                <input type="submit" class="submit" id="isubmit">
             </form>
         </section>
-
-            <img src="imagem/pexels-photo-3408354.png" alt="">
-
+        <section>
+            <img src="imagem/pexels-photo-3408354.png" alt="background">
+        </section>
     </main>
 </body>
 </html>

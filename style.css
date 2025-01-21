@@ -3,103 +3,172 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'raleway';
-    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    color: white;
 }
 
-body, html {
-    overflow: hidden;
-    margin: 0px;
+/*
+body {
+    width: 30vw;
     height: 100vh;
-    width: 100vw;
+    background-color: #400101;
+    box-shadow: 0px 0px 3px 2px rgb(0, 0, 0);
 }
+*/
 
 header {
-    border: 1px solid black;
-    background-color: #261717;
-}
-
-p {
     display: inline-block;
-    color: white;
-    font-weight: normal;
-    font-size: 20px;
+    width: 50vw;
+    height: 15vh;
+    background-color: #400101;
 }
 
 .login {
-    
     position: relative;
-    margin-top: 55px;
-    margin-left: 7%;
-    margin-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 4px;
-    border: 3px solid #8C111B;
-    border-top-color: #261717;
-    border-left-color: #261717;
-    border-right-color: #261717;
+    display: inline-block;
+    top: 50px;
+    left: 100px;
+    margin-right: 45px;
+    padding: 5px 14px 5px 14px;
+    border: 4px solid #960303;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.616);
 }
 
-section {
-    width: ;
-}
-
-.sign {
-    padding-left: 2%;
+.sign-up {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    cursor: pointer;
     opacity: 0.5;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
-main {
-    background-color: #261717;
+section#login {
+    display: inline-block;
+    width: 50vw;
+    height: 100vh;
+    background-color: #400101;
+    
 }
 
 .titulo {
-    font-size: 40px;
-    padding-top: 2.3em;
+    font-size: 32px;
     margin-bottom: 10px;
-    padding-left: 20px;
-    margin-left: 7%;
+    display: inline-block;
+    position: relative;
+    margin-top: 70px;
+    left: 120px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
 
 .subtitulo {
-    padding-left: 20px;
-    margin-left: 7%;
-    margin-bottom: 40px;
-}
-
-.formulario {
-    padding: 40px 80px 30px 40px;
-    font-size: 20px;
-    width: 400px;
-    margin-left: 155px;
-    background-color: #928281e5;
-    border: 1px solid #af1522bb;
-    color: white;
-    border-radius: 3px;
-    border-width: 3px;
-    border-style: solid;
-    border-right: transparent;
-    border-top: transparent;
-    border-bottom: transparent;
-    margin-bottom: 10px;
-}
-
-
-label {
+    font-size: 16px;
     position: relative;
-    right: 480px;
-    bottom: 35px;
-    color: #af152294;
-    font-size: 19px;
+    left: 122px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+input#iemail {
+    position: relative;
+    left: 122px;
+    width: 250px;
+    padding: 20px 130px 20px 15px;
+    background-color: #cc606081;
+    border: 4px solid #E80505;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.email {
+    display: inline;
+    font-size: 15px;
+    position: relative;
+    right: 270px;
+    bottom: 20px;
+    color: #f14e4eab;
+}
+
+input#ipass {
+    position: relative;
+    left: 122px;
+    width: 250px;
+    padding: 20px 130px 20px 15px;
+    background-color: #cc606081;
+    border: 4px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.password {
+    display: inline;
+    font-size: 15px;
+    position: relative;
+    right: 270px;
+    bottom: 20px;
+    color: #f14e4eab;
+}
+
+input#iremember {
+    position: relative;
+    top: 55px;
+    right: 357px;
+}
+
+.rememberme {
+    position: relative;
+    top: 54px;
+    font-size: 15px;
+    right: 353px;
+}
+
+.forget {
+    position: relative;
+    font-size: 15px;
+    top: 11px;
+    left: 375px;
+    color: #f14e4eab;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px #f14e4eab;
+}
+
+input#isubmit {
+    position: relative;
+    left: 125px;
+    top: 30px;
+    padding: 8px 45px 8px 45px;
+    background-color: #cc606081;
+    border: none;
+    border-radius: 4px;
+    color: #f14e4eab;
+    box-shadow: 0px 0px 2px 2px #f14e4eab;
+}
+
+html {
+    overflow: hidden;
+    
 }
 
 img {
-    display: block;
     position: relative;
+    display: inline;
     width: 50vw;
     height: 100vh;
-    right: -50%;
-    top: -531px;
+    bottom: 885px;
+    left: 765px;
 }
 
+main {
+    
+}
