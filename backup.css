@@ -1,0 +1,24 @@
+
+body {
+    background-color: #261717;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+div#monte-fuji {
+    display: inline-block;
+    width: 50vw;
+    height: 100vh;
+    
+}
+
+img#background-img {
+    display: inline-block;
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+}
